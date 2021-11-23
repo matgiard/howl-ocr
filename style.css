@@ -60,6 +60,14 @@ a:hover {
     font-size: 23px;
 }
 
+.quote {
+    font-size: 22px;
+}
+
+.quote-aut {
+    font-size: 19px;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
