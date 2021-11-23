@@ -77,6 +77,21 @@ a:hover {
     font-size: 20px;
 }
 
+.final-cont {
+    color: white;
+}
+
+footer {
+    height: 140px;
+}
+
+.footer-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    margin-left: 310px;
+    color: white;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -111,18 +126,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -306,6 +313,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: white;
 }
 
 .navbar {
@@ -672,7 +680,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -709,6 +716,8 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: white;
+    font-weight: revert;
 }
 
 .cta-hero {
@@ -721,7 +730,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 590px;
     margin: auto auto auto auto;
 }
 
@@ -741,10 +750,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
