@@ -1146,6 +1146,10 @@ h4 {
         text-align: center;
     }
 
+    .limit-txt {
+        margin-bottom: 44px;
+    }
+
     #bloc-1-hero h1 {
         font-size: 28px;
     }
@@ -1200,6 +1204,10 @@ h4 {
         font-size: 20px;
     }
 
+    .limit-txt {
+        margin-bottom: 44px;
+    }
+
     .bmp-two {
         display: initial;
         width: 320px;
@@ -1207,7 +1215,7 @@ h4 {
     }
 
     .goal-ent, .real-ent, .quote {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     footer {
