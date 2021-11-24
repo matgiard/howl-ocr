@@ -668,7 +668,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -760,7 +760,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -865,6 +865,10 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    p {
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -946,7 +950,7 @@ h4 {
     }
 
     .goal-ent, .real-ent, .quote {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     footer {
