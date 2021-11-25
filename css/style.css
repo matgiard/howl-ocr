@@ -812,7 +812,7 @@ h4 {
 
     /* MEDIA QUERIES */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -851,27 +851,7 @@ h4 {
         float: none;
         margin: 10px auto 0;
     }
-}
 
-@media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    p {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -904,6 +884,51 @@ h4 {
         font-size: 15px;
     }
 }
+
+@media (max-width: 1024px) {
+    .bloc {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bloc.full-width-bloc,
+    .bloc-tile-2.full-width-bloc .container,
+    .bloc-tile-3.full-width-bloc .container,
+    .bloc-tile-4.full-width-bloc .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    #bloc-1-hero h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .goal-ent, .real-ent, .quote {
+        font-size: 19px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .social-foo {
+        margin-bottom: 8px;
+    }
+
+    .footer-title {
+        margin-left: 14px;
+        font-size: 15px;
+    }
+}
+
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
@@ -1181,9 +1206,27 @@ h4 {
     }
 
     .footer-title {
-        margin-left: 169px;
+        margin-left: 19px;
         font-size: 15px;
     }
+}
+
+@media (min-width: 500px) and (max-width: 767px) and (orientation: landscape) {
+    .footer-title {
+        margin-left: 165px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .footer-title {
+        margin-left: 165px;
+    }
+}
+
+@media (min-width: 736px) and (max-width: 767px) and (orientation: landscape) {
+    .footer-title {
+        margin-left: 194px;
+    }    
 }
 
 @media (max-width: 400px) {
