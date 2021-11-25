@@ -86,14 +86,19 @@ footer {
 }
 
 .footer-title {
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     font-size: 18px;
-    margin-left: 310px;
     color: white;
 }
 
 .contact-talk {
     color: white;
+}
+
+.foot-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bg-center,
@@ -874,15 +879,6 @@ h4 {
     footer {
         height: auto;
     }
-
-    .social-foo {
-        margin-bottom: 8px;
-    }
-
-    .footer-title {
-        margin-left: 14px;
-        font-size: 15px;
-    }
 }
 
 @media (max-width: 1024px) {
@@ -917,17 +913,7 @@ h4 {
     footer {
         height: auto;
     }
-
-    .social-foo {
-        margin-bottom: 8px;
-    }
-
-    .footer-title {
-        margin-left: 14px;
-        font-size: 15px;
-    }
 }
-
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -951,17 +937,12 @@ h4 {
         height: auto;
     }
 
-    .social-foo {
-        margin-bottom: 8px;
-    }
-
     .footer-title {
-        margin-left: 14px;
         font-size: 15px;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 991px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -982,12 +963,7 @@ h4 {
         height: auto;
     }
 
-    .social-foo {
-        margin-bottom: 8px;
-    }
-
     .footer-title {
-        margin-left: 324px;
         font-size: 15px;
     }
 }
@@ -1013,9 +989,9 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
     }
-    
+
     .footer-title {
-        margin-left: 202px;
+        font-size: 15px;
     }
 }
 
@@ -1196,31 +1172,12 @@ h4 {
     }
 
     .social-foo {
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
     .footer-title {
-        margin-left: 19px;
         font-size: 15px;
     }
-}
-
-@media (min-width: 500px) and (max-width: 767px) and (orientation: landscape) {
-    .footer-title {
-        margin-left: 165px;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 767px) {
-    .footer-title {
-        margin-left: 165px;
-    }
-}
-
-@media (min-width: 736px) and (max-width: 767px) and (orientation: landscape) {
-    .footer-title {
-        margin-left: 194px;
-    }    
 }
 
 @media (max-width: 400px) {
@@ -1259,12 +1216,7 @@ h4 {
         height: auto;
     }
 
-    .social-foo {
-        margin-bottom: 8px;
-    }
-
     .footer-title {
-        margin-left: 14px;
         font-size: 15px;
     }
 }
