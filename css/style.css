@@ -99,7 +99,7 @@ footer {
 }
 
 .contact-talk {
-    color: white;
+    color: #333333;
 }
 
 .foot-cont {
@@ -716,10 +716,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.jpg");
+    filter: contrast(1.5);
 }
 
 .bg-presentation {
     background-image: url("../img/image-de-presentation.jpg");
+    filter: contrast(1.2);
 }
 
     /* MEDIA QUERIES */
