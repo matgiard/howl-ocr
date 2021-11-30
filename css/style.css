@@ -94,7 +94,7 @@ footer {
 .footer-title {
     margin-bottom: 18px;
     font-size: 18px;
-    color: white;
+    color: #333333;
     font-weight: bold;
 }
 
@@ -228,6 +228,7 @@ footer {
 #bloc-1-hero h1 {
     font-size: 32px;
     color: white;
+    font-weight: bold;
 }
 
 .navbar {
@@ -605,6 +606,7 @@ p {
 .social {
     max-width: 590px;
     margin: auto auto auto auto;
+    color: #333333;
 }
 
 h2 {
