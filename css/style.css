@@ -20,7 +20,11 @@ button {
 
 a:hover {
     text-decoration: none;
-    cursor: pointer;
+    cursor: pointer;  
+}
+
+a:focus {
+    border: 2px #23527c dotted;
 }
 
 #page-loading-blocs-notifaction {
