@@ -23,7 +23,7 @@ a:hover {
     cursor: pointer;  
 }
 
-a:focus {
+a:active {
     border: 2px #23527c dotted;
 }
 
